@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+#menu {
+	font-size: 15px;	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	width: 100%;
+	position: fixed;
+	z-index: 99;
+	background-color: rgba(255, 255, 255, 0.7)
+	
+}
+
+#menu li {
+	display: inline-block;
+	padding: 10px;
+}
+
+
+
+#menu li a {
+	color:#797979;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#menu li a:hover {
+	color: #000000;
+	text-decoration: none;
+	transition-property: background;
+	transition-duration: 0.5s;
+	transition-property: all;
+	transition-timing-function: ease-in;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	color: white;
+}
+
+#menu .Dicas {
+	text-decoration: underline;
+}
+
+.imagem1 {
+	background: url('Camera.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: 800px;
+	margin: 0;
+	padding: 0;
+}
+
+.imagem2 {
+	background: url('Dinheiro.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: 800px;
+	margin: 0;
+	padding: 0;
+}
+
+.imagem3 {
+	background: url('Lente.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: 800px;
+	margin: 0;
+}
+
+.texto11 {
+	color: white;
+	font-size: 35px;
+	position: absolute;
+	right: 50px;
+	top: 350px;
+	width: 500px;
+}
+
+#container1 {
+	background: rgb(79, 79, 79, 0.4);
+	position: absolute;
+	left:  0px;
+	width: 600px;
+	height: 792px;
+}
+
+.texto21 {
+	color: white;
+	font-size: 35px;
+	position: absolute;
+	left: 150px;
+	top: 380px;
+	width: 400px;
+}
+
+.texto22 {
+	color: white;
+	font-size: 20px;
+	position: relative;
+	left: 30px;
+	top: 100px;
+	width: 550px;
+}
+
+#container2 {
+	background: rgb(79, 79, 79, 0.4);
+	position: absolute;
+	right: 0px;
+	width: 600px;
+	height: 800px;
+}
+
+.btn-c {
+	text-decoration: none;
+	background: white;
+	border-radius: 8px;
+	box-shadow: -2px 2px rgba(121, 121, 121, 0.6);
+	color: #797979;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 26px;
+	font-size: 20px;
+	height: 35px;
+	line-height: 26px;
+	padding: 4px;
+	text-align: center;
+	width: 140px;
+	position: absolute;
+	left: 180px;
+	top: 420px;
+}
+
+.btn-c:hover {
+	background: #797979;
+	color: white;
+	transition-property: background;
+	transition-duration: 0.5s;
+	transition-property: all;
+	transition-timing-function: ease-in;
+}
+
+.btn-a {
+	text-decoration: none;
+	background: white;
+	border-radius: 8px;
+	box-shadow: -2px 2px rgba(121, 121, 121, 0.6);
+	color: #797979;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 26px;
+	font-size: 20px;
+	height: 35px;
+	line-height: 26px;
+	padding: 4px;
+	text-align: center;
+	width: 140px;
+	position: absolute;
+	left: 220px;
+	top: 440px;
+}
+
+.btn-a:hover {
+	background: #797979;
+	color: white;
+	transition-property: background;
+	transition-duration: 0.5s;
+	transition-property: all;
+	transition-timing-function: ease-in;
+}
+
+#container3 {
+	background: rgb(79, 79, 79, 0.4);
+	position: absolute;
+	left: 0px;
+	width: 600px;
+	height: 800px;
+}
+
+.texto3 {
+	color: white;
+	font-size: 35px;
+	position: absolute;
+	left: 50px;
+	top: 350px;
+	width: 500px;
+}
+
+.btn-b {
+	text-decoration: none;
+	background: white;
+	border-radius: 8px;
+	box-shadow: -2px 2px rgba(121, 121, 121, 0.6);
+	color: #797979;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 26px;
+	font-size: 20px;
+	height: 35px;
+	line-height: 26px;
+	padding: 4px;
+	text-align: center;
+	width: 140px;
+	position: absolute;
+	left: 180px;
+	top: 440px;
+}
+
+.btn-b:hover {
+	background: #797979;
+	color: white;
+	transition-property: background;
+	transition-duration: 0.5s;
+	transition-property: all;
+	transition-timing-function: ease-in;
+}
