@@ -94,7 +94,7 @@ p {
 }
 
 #container1 {
-	background: rgb(79, 79, 79, 0.4);
+	/*background: rgb(79, 79, 79, 0.4);*/
 	position: absolute;
 	left:  0px;
 	width: 600px;
@@ -186,7 +186,7 @@ p {
 }
 
 #container3 {
-	background: rgb(79, 79, 79, 0.4);
+	/*background: rgb(79, 79, 79, 0.4);*/
 	position: absolute;
 	left: 0px;
 	width: 600px;
